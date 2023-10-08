@@ -6,7 +6,7 @@ def get_required_fields():
             'objective': 'binary',  # Тип задачи (бинарная классификация)
             'num_leaves': 31,  # Максимальное количество листьев в дереве
             'max_depth': 6,  # Максимальная глубина дерева
-            'learning_rate': 0.05,  # Скорость обучения (learning rate)
+            'learning_rate': 0.1,  # Скорость обучения (learning rate)
             'n_estimators': 100,  # Количество деревьев
             'subsample_for_bin': 20000,  # Количество выборок для построения гистограмм
             'min_child_samples': 20,  # Минимальное количество образцов в листе
